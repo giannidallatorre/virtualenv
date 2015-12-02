@@ -3,21 +3,22 @@ Configure the ambient
 
 Edit EBI-TSI-openrc.sh with your OpenStack references
 
-    $vim EBI-TSI-openrc.sh
+    $ vim EBI-TSI-openrc.sh
 
 New virtual environment for novavclient
     
     $ virtualenv venv
-    $ env/bin/pip install python-novaclient
+    $ venv/bin/pip install python-novaclient
 
-# Usage
+# Usage  
+
 Configure the ambient variable
 
     $ source EBI-TSI-openrc.sh
 
 Activate python Virtualnv
 
-   $ source env/bin/activate
+   $ source venv/bin/activate
 
 Use novaclient
 

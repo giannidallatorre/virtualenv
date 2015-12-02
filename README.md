@@ -3,21 +3,22 @@
 # Install VirtualEnv
 
     sudo easy_install pip
+    sudo pip install virtualenv
 
 # New virtual environment    
 
     cd my_project_folder
     virtualenv venv
 
-    env/bin/pip install requests
+    venv/bin/pip install requests
 
 # Activate and deactivate
 
-    source env/bin/activate
+    source venv/bin/activate
 
     deactivate
 
 # Requirement files
 
-    env/bin/pip install -r requirements.txt
+    venv/bin/pip install -r requirements.txt
 
