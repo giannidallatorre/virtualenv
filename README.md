@@ -14,11 +14,11 @@
 
 # Activate and deactivate
 
-    source env/bin/activate
+    source venv/bin/activate
 
     deactivate
 
 # Requirement files
 
-    env/bin/pip install -r requirements.txt
+    venv/bin/pip install -r requirements.txt
 
