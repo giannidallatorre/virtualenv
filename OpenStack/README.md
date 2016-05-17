@@ -9,6 +9,7 @@ New virtual environment for novavclient
     
     $ virtualenv venv
     $ venv/bin/pip install python-novaclient
+    $ venv/bin/pip install python-glanceclient
 
 # Usage  
 
@@ -16,7 +17,7 @@ Configure the ambient variable
 
     $ source EBI-TSI-openrc.sh
 
-Activate python Virtualnv
+Activate python Virtualenv
 
    $ source venv/bin/activate
 
@@ -24,7 +25,7 @@ Use novaclient
 
     $ nova
 
-Deactivate python Virtualnv
+Deactivate python Virtualenv
 
    $ deactivate
 
