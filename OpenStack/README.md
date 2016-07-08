@@ -19,7 +19,7 @@ Configure the ambient variable
 
 Activate python Virtualenv
 
-   $ source venv/bin/activate
+    $ source venv/bin/activate
 
 Use novaclient
 
@@ -27,5 +27,4 @@ Use novaclient
 
 Deactivate python Virtualenv
 
-   $ deactivate
-
+    $ deactivate
